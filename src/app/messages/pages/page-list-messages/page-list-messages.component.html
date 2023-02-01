@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+ <div *ngFor="let message of messages">
+
+      <app-form-edit-message *ngIf="(message.id===idSelected)"[init]="message" (submitted)="action2($event)">
+
+      </app-form-edit-message>
+      <div *ngIf="!(message.id===idSelected)"> {{message.text}}</div>
+     <button (click)="delete(message.id)">Delete</button>
+     <button (click)="isEditable(message.id)">Modifier</button>
+ </div>
+
+  <div>
+    <app-form-message [init]="message" (submitted)="action($event)"></app-form-message>
+ </div>
+
+
+
+
+
+
+
+

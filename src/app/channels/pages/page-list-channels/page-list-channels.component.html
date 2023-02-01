@@ -1,0 +1,7 @@
+
+<h1>Liste des canaux</h1>
+<div *ngIf="channels">
+<tr *ngFor="let channel of channels">
+  <td><a [routerLink]="['/message', channel.id]">{{channel.channelName}}</a></td>
+</tr>
+</div>

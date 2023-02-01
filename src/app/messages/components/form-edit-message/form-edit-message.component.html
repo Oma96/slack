@@ -1,0 +1,10 @@
+<form [hidden]="isDisplayed"  [formGroup]= "form" (ngSubmit)="onSubmit()">
+
+  <div class="form-group">
+     <label for="text"></label>
+     <input type="text" class="form-control" id="text" formControlName="text">
+    </div>
+
+   <button type="submit" class="btn btn-primary" (click)="closeMe()">Submit</button>
+   <button type="submit" class="btn btn-secondary" (click)="closeMe()">Close</button>
+ </form>

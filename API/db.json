@@ -1,0 +1,91 @@
+{
+  "channels": [
+    {
+      "channelName": "POEI-JAVA-Sopra",
+      "channelUser": "Oumaima Jarraya",
+      "createdDate": "26/01/2023",
+      "id": 1
+    },
+    {
+      "channelName": "Equipe2-tp",
+      "channelUser": "Alain Delon",
+      "createdDate": "26/01/2022",
+      "id": 3
+    },
+    {
+      "channelName": "General",
+      "channelUser": "Alain Delon",
+      "createdDate": "26/01/2023",
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "text": "bb",
+      "owner": "string",
+      "channelId": 3,
+      "createdDate": "26/01/2022",
+      "id": 2
+    },
+    {
+      "text": "fffff",
+      "channelId": 1,
+      "id": 4
+    },
+    {
+      "text": "hhhh",
+      "channelId": 1,
+      "id": 5
+    },
+    {
+      "text": "gggg",
+      "channelId": 1,
+      "id": 6
+    },
+    {
+      "text": "gggg",
+      "channelId": 2,
+      "id": 7
+    },
+    {
+      "text": "gggg",
+      "channelId": 2,
+      "id": 8
+    },
+    {
+      "text": "Bienvenue dans le canal de l'équipe 2",
+      "channelId": "3",
+      "id": 9
+    },
+    {
+      "text": "jjjjhhh",
+      "channelId": "1",
+      "id": 13
+    },
+    {
+      "text": "jjjj",
+      "channelId": "1",
+      "id": 14
+    },
+    {
+      "text": "jjjjhhhyyytttuu",
+      "channelId": "2",
+      "id": 15
+    },
+    {
+      "text": "jjjj",
+      "channelId": "2",
+      "id": 17
+    },
+    {
+      "text": "jjjj",
+      "channelId": "2",
+      "id": 18
+    },
+    {
+      "text": "hhhhh",
+      "channelId": "2",
+      "id": 19
+    }
+  ]
+}
